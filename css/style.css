@@ -12,7 +12,7 @@ html {
 }
 
 main {
-    background-color: chartreuse;
+    padding-top: 4em;
 }
 img {
     width: 100%;
@@ -75,6 +75,8 @@ a {
 header {
     height: 60px;
     width: 100%;
+    position: fixed;
+    background-color: white;
 }
 
 .header-nav {
