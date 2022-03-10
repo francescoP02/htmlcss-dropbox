@@ -39,13 +39,6 @@ a {
     clear: both;
 }
 
-.col {
-    float: left;
-    background-color: bisque;
-    height: 800px;
-    width: calc(33.333% - 2em);
-}
-
 .ms-3 {
     margin: 0 3em;
 }
@@ -68,6 +61,11 @@ a {
 .banner-btn {
     display: block;
     padding-bottom: 1.5em;
+}
+
+.col-btn {
+    display: block;
+    padding-bottom: 3em;
 }
 
 /* HEADER */
@@ -184,7 +182,7 @@ header {
     width: 60%;
 }
 
-.black {
+.black > a {
     padding-top: .5em;
     font-size: 2em;
     color: #000000;
@@ -199,9 +197,81 @@ header {
     margin-bottom: 3em;
 }
 
+.payment-title {
+    margin-bottom: 2em;
+}
+
+.checkbox-e {
+    margin-right: 1em;
+}
+.checkbox {
+    margin-bottom: 2em;
+}
+/* COLUMN */
+
+.col {
+    float: left;
+    background-color: bisque;
+    width: calc(33.333% - 2em);
+    border: 2px #d3d3d3 solid;
+}
+
+.col-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.col-top {
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+hr {
+    color: lightgray;
+    padding-bottom: 1em;
+}
+
+.frequency {
+    color: gray;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.mb-3 {
+    margin-bottom: 3em;
+}
+
+.or {
+    padding-bottom: 2em;
+    border-bottom:1px solid lightgray;
+    display: inline;
+}
+
+.plan-point {
+    padding-top: 4em;
+    width: 100%;
+}
+
+.point-title {
+    padding-bottom: 1em;
+}
+
+.plan-point ul {
+    list-style-image: url(../img/check-solid.svg);
+}
+
+
 /* TEAM */
 .team {
     margin-bottom: 5em;
+}
+
+.col-link {
+    text-decoration: underline;
+    color: #0061ff;
 }
 
 /* ENTERPRISE */
