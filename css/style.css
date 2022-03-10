@@ -7,7 +7,7 @@
 
 /* COMMON */
 html {
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 100%;
 }
 
@@ -65,6 +65,11 @@ a {
     font-size: .8em;
 }
 
+.banner-btn {
+    display: block;
+    padding-bottom: 1.5em;
+}
+
 /* HEADER */
 
 header {
@@ -76,6 +81,7 @@ header {
     color: black;
     font-size:.8em;
     line-height: 60px;
+    font-weight: 500;
 }
 
 .nav-logo img {
@@ -144,8 +150,43 @@ header {
 .banner {
     background-color: rgb(180, 208, 231);
     width: 100%;
-    height: 600px;
-    margin-bottom: 8em;
+    margin-bottom: 15em;
+    height: 95vh;
+}
+
+.banner-content {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.banner-title {
+    font-size: 4em;
+    font-weight: 700;
+    padding: 1em 0 1em;
+}
+
+.banner-text {
+    float: left;
+    width: 40%;
+    padding-bottom: 2em;
+}
+
+.banner-t {
+    font-size: .9em;
+    width: 80%;
+}
+
+.banner-img {
+    float: right;
+    width: 60%;
+}
+
+.black {
+    padding-top: .5em;
+    font-size: 2em;
+    color: #000000;
+    display: block;
 }
 
 /* PAYMENT */
