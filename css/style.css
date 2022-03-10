@@ -6,9 +6,24 @@
 }
 
 /* COMMON */
+html {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 100%;
+}
 
 main {
     background-color: chartreuse;
+}
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /* PAGE STRUCTURE */
@@ -35,20 +50,99 @@ main {
     margin: 0 3em;
 }
 
+/* BUTTON */
+.nav-btn {
+    display: inline-block;
+}
+
+.btn-blue {
+    background-color: #0061ff;
+    color: white;
+}
+
+.btn {
+    padding: .8em 1em;
+    font-size: .8em;
+}
+
 /* HEADER */
 
 header {
-    background-color: aqua;
+    height: 60px;
     width: 100%;
-    height: 80px;
 }
+
+.header-nav {
+    color: black;
+    font-size:.8em;
+    line-height: 60px;
+}
+
+.nav-logo img {
+    width: auto;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 1em;
+}
+
+.nav-logo {
+    width: 15%;
+}
+
+.nav-btn {
+    width: 10%;
+}
+
+.nav-logo, .nav-center, .nav-btn{
+    float: left;
+}
+
+.menu-left {
+    float: left;
+}
+
+.menu-right {
+    float: right;
+}
+
+.nav-btn {
+    text-align: center;
+}
+
+.nav-btn a {
+    line-height: normal;
+}
+
+.nav-center {
+    width: 75%;
+    text-align: center;
+}
+
+.nav-center .menu-left li,
+.nav-center .menu-right li {
+    margin: 0 1em;
+    display: inline-block;
+}
+
+.nav-center .menu-left a,
+.nav-center .menu-right a {
+    font-size: .7em;
+    font-weight: 400;
+    color: inherit;
+}
+
+.nav-center .menu-left li:hover,
+.nav-center .menu-right li:hover {
+    border-bottom: 3px solid black;
+}
+
 
 /* MAIN */
 
 /* BANNER */
 
 .banner {
-    background-color: blueviolet;
+    background-color: rgb(180, 208, 231);
     width: 100%;
     height: 600px;
     margin-bottom: 8em;
