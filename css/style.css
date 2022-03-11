@@ -81,6 +81,12 @@ a {
     font-size: .7em;
 }
 
+.btn-contact {
+    border: 1px solid black;
+    color: black;
+
+}
+
 /* HEADER */
 
 header {
@@ -307,7 +313,6 @@ header {
 .enterprise {
     width: 100%;
     /* background-color: brown; */
-    height: 150px;
     margin-bottom: 6em;
 }
 
@@ -324,17 +329,19 @@ header {
 }
 
 .enterprise-p {
-    font-size: .9em;
+    font-size: .7em;
 }
 
 .enterprise-text {
     border: 1px solid lightgray;
+    width: 100%;
 }
 
 .e-text {
     float: left;
     line-height: 3em;
     margin: 2em 0 1em 1em;
+    width: 60%;
 }
 
 .e-button {
@@ -342,13 +349,31 @@ header {
     margin: 2em 2em 0 0;
 }
 
+/* PARTNER-CONTACT */
 
-/* PARTNER */
+.partner-contact {
+    padding-bottom: 8em;
+}
 
 .partner {
     width: 100%;
-    background-color: darkgreen;
-    height: 400px;
+    /* background-color: darkgreen; */
+}
+
+.partner-img {
+    width: 50%;
+    float: left;
+}
+
+.partner-text {
+    width: calc(50% - 3em);
+    margin: 2em 0 0 3em;
+    float: left;
+}
+
+.partner-p {
+    padding: 2em 0 3em;
+    font-size: .9em;
 }
 
 /* OPERATIONS */
