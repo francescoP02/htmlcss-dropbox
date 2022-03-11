@@ -573,11 +573,13 @@ header {
     margin: 0 auto;
     width: 60%;
     font-size: 1.5em;
+    color: rgb(97, 8, 43);
 }
 
 .trial-btn {
     width: 40%;
     padding-left: 20%;
+    font-size: .8em;
 }
 
 /* FOOTER */
