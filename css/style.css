@@ -76,6 +76,11 @@ a {
     padding-bottom: 3em;
 }
 
+.e-btn {
+    padding: .8em 4.5em;
+    font-size: .7em;
+}
+
 /* HEADER */
 
 header {
@@ -240,6 +245,7 @@ header {
     /* background-color: bisque; */
     width: calc(33.333% - 2em);
     border: 1px #808080 solid;
+    min-height: 1300px;
 }
 
 }
@@ -300,10 +306,42 @@ header {
 
 .enterprise {
     width: 100%;
-    background-color: brown;
+    /* background-color: brown; */
     height: 150px;
     margin-bottom: 6em;
 }
+
+.e-title i {
+    padding: .2em;
+}
+
+.enterprise-title {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    padding: .5em 0;
+}
+
+.enterprise-p {
+    font-size: .9em;
+}
+
+.enterprise-text {
+    border: 1px solid lightgray;
+}
+
+.e-text {
+    float: left;
+    line-height: 3em;
+    margin: 2em 0 1em 1em;
+}
+
+.e-button {
+    float: right;
+    margin: 2em 2em 0 0;
+}
+
 
 /* PARTNER */
 
