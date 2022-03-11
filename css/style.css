@@ -379,20 +379,37 @@ header {
 /* OPERATIONS */
 
 .operations {
-    background-color: chocolate;
+    /* background-color: chocolate; */
     width: 100%;
     margin-bottom: 6em;
 }
 
-.raw {
+.operations-title {
+    padding-bottom: 2em;
+    font-size: 2em;
+}
+
+.row {
     margin-bottom: 5em;
 }
 
-.raw-col {
+.row-col {
     float: left;
-    height: 400px;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
     width: calc(33.333% - 1.3333em);
+}
+
+.title-col-text {
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+.p-col-text {
+    font-size: .9em;
+}
+
+.dropbox-underline {
+    text-decoration: underline;
 }
 
 .ms-2 {
