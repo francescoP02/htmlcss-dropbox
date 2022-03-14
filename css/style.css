@@ -108,7 +108,6 @@ header {
 .header-nav {
     color: black;
     font-size:.8em;
-    line-height: 60px;
     font-weight: 500;
 }
 
@@ -121,10 +120,12 @@ header {
 
 .nav-logo {
     width: 15%;
+    margin-top: 1.5em;
 }
 
 .nav-btn {
     width: 10%;
+    margin-top: 1.5em;
 }
 
 .nav-logo, .nav-center, .nav-btn{
@@ -156,6 +157,7 @@ header {
 .nav-center .menu-right li {
     margin: 0 1em;
     display: inline-block;
+    position: relative;
 }
 
 .nav-center .menu-left a,
@@ -163,13 +165,34 @@ header {
     font-size: .7em;
     font-weight: 400;
     color: inherit;
+    line-height: 60px;
 }
+
+/* .menu-left, .menu-right > ul.menu a {
+    line-height: 60px;
+} */
 
 .nav-center .menu-left li:hover,
 .nav-center .menu-right li:hover {
     border-bottom: 3px solid black;
 }
 
+.sub-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem;
+    width: 15rem;
+    background-color: white;
+    display: none;
+    line-height: 2em;
+    font-size: .8em;
+    text-align: left;
+}
+
+.menu-right > ul.menu > li:hover .sub-menu {
+    display: block;
+}
 
 /* MAIN */
 
@@ -261,8 +284,6 @@ header {
     width: calc(33.333% - 2em);
     border: 1px #808080 solid;
     min-height: 1300px;
-}
-
 }
 
 .col-container {
